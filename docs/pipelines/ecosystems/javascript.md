@@ -980,7 +980,7 @@ steps: # Checking out connected repo
   inputs:
     script: |
       git config --global user.email "username@contoso.com"
-      git config --global user.name "Azure Pipeline"
+      git config --global user.name "Azure Pipelines"
       git add package.json
       git commit -a -m "Test Commit from Azure DevOps"
       git push -u origin HEAD:main
